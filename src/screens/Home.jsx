@@ -5,6 +5,7 @@ import Tab from "../components/Tab";
 import BannerMenTop from "../components/BannerMenTop";
 import Widgets from "../components/Widgets";
 import Products from "../components/Products";
+import Category from "../components/Category";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <BannerMenTop />
       <Widgets />
       <Products />
+      <Category />
     </div>
   );
 }

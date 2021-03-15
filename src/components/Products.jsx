@@ -6,25 +6,27 @@ function Products() {
     {
       id: 1,
       primaryImage:
-        "https://images.bewakoof.com/t320/plain-casual-badge-jogger-pants-men-s-plain-casual-badge-jogger-pants-321355-1615270084.jpg",
-      secondaryImage: "",
+        "https://images.bewakoof.com/t540/men-s-tie--dye-printed-paradise-longline-t-shirt-men-s-printed-half-sleeve-longline-t-shirts-339832-1615555287.jpg",
+      secondaryImage:
+        "https://images.bewakoof.com/t540/men-s-tie--dye-printed-paradise-longline-t-shirt-men-s-printed-half-sleeve-longline-t-shirts-339832-1615555292.jpg",
       productTitle: "Product 1",
       productPrice: "300",
     },
     {
       id: 2,
       primaryImage:
-        "https://images.bewakoof.com/t320/rust-orange-men-s-printed-waist-coat-waist-coat-men-s-aop-waist-coat-333646-1615204086.jpg",
+        "https://images.bewakoof.com/t540/jooti-print-kurta-men-s-printed-mid-kurta-333723-1615204668.jpg",
       secondaryImage:
-        "https://images.bewakoof.com/t320/rust-orange-men-s-printed-waist-coat-waist-coat-men-s-aop-waist-coat-333646-1615204104.jpg",
+        "https://images.bewakoof.com/t540/jooti-print-kurta-men-s-printed-mid-kurta-333723-1615204671.jpg",
       productTitle: "Product 2",
       productPrice: "340",
     },
     {
       id: 3,
       primaryImage:
-        "https://images.bewakoof.com/t320/black-men-s-casual-jogger-pants-with-zipper-nr-plain-men-s-casual-jogger-pants-with-zipper-nr-plain-321141-1615269866.jpg",
-      secondaryImage: "",
+        "https://images.bewakoof.com/t540/go-into-the-unknown-half-sleeve-t-shirt-tropical-blue-men-s-printed-t-shirts-342062-1615553654.jpg",
+      secondaryImage:
+        "https://images.bewakoof.com/t540/go-into-the-unknown-half-sleeve-t-shirt-tropical-blue-men-s-printed-t-shirts-342062-1615553658.jpg",
       productTitle: "Product 3",
       productPrice: "310",
     },
@@ -32,7 +34,8 @@ function Products() {
       id: 4,
       primaryImage:
         "https://images.bewakoof.com/t320/deep-lake--white-half-sleeve-stripes-polo-men-s-plain-half-sleeve-stripes-polo-278037-1614929594.jpg",
-      secondaryImage: "",
+      secondaryImage:
+        "https://images.bewakoof.com/t540/go-into-the-unknown-half-sleeve-t-shirt-tropical-blue-men-s-printed-t-shirts-342062-1615553658.jpg",
       productTitle: "Product 4",
       productPrice: "380",
     },
@@ -77,6 +80,9 @@ function Products() {
             );
           })}
         </div>
+        <a href="#" className="view__all">
+          View All
+        </a>
       </div>
     </div>
   );
