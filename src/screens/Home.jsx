@@ -6,6 +6,7 @@ import BannerMenTop from "../components/BannerMenTop";
 import Widgets from "../components/Widgets";
 import Products from "../components/Products";
 import Category from "../components/Category";
+import Trending from "../components/Trending";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Widgets />
       <Products />
       <Category />
+      <Trending />
     </div>
   );
 }

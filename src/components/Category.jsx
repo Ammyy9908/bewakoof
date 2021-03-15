@@ -54,65 +54,69 @@ function Category() {
     {
       id: 9,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/bewakoof-combo-pack-online-fashion-category-box-men-1614084935.png",
       title: "Combos & Packs",
     },
     {
       id: 10,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/Bewakoof-Online-Shopping-Category-Box-Men-s-Polo-TShirts-1609852757.jpg",
       title: "Polo T-shirts",
     },
     {
       id: 11,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0010-Men-s-Vestv-1614584569.jpg",
       title: "Vests",
     },
     {
       id: 12,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0005-Men-s-Jersey-Shirt-1614584568.jpg",
       title: "Shirts",
     },
     {
       id: 13,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/bewakoof-online-fashion-shopping-KURTA-MEN-1608009857.png",
       title: "Kurtas",
     },
     {
       id: 14,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0006-Men-s-Joggers-1614584568.jpg",
       title: "Joggers",
     },
     {
       id: 15,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0000-mens-shorts-1614584566.jpg",
       title: "Shorts",
     },
     {
       id: 16,
       img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/bewakoof-online-fashion-shopping-pyjama-MEN-1608009858.png",
       title: "Pyjamas",
     },
-    {
-      id: 17,
-      img:
-        "https://images.bewakoof.com/uploads/grid/app/cotm-category-boxes-0003-Men-s-Half-Sleeves-1614584567.jpg",
-      title: "Boxers",
-    },
+    // {
+    //   id: 17,
+    //   img:
+    //     "https://images.bewakoof.com/uploads/grid/app/Bewakoof-Online-Shopping-Category-Box-Men-s-Boxers-1609852757.jpg",
+    //   title: "Boxers",
+    // },
   ];
   return (
     <div className="category">
       <div className="category__wrapper">
         <div className="category__title">CATEGORIES FOR YOU</div>
         <div className="categories__cards">
-          {categories.map((category) => (
-            <CategoryCard img={category.img} title={category.title} />
+          {categories.map((category, index) => (
+            <CategoryCard
+              img={category.img}
+              title={category.title}
+              key={index}
+            />
           ))}
         </div>
       </div>

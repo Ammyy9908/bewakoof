@@ -1,7 +1,7 @@
 import React from "react";
 import Product from "./Product";
 
-function Products() {
+function Trending() {
   const products = [
     {
       id: 1,
@@ -65,9 +65,9 @@ function Products() {
     },
   ];
   return (
-    <div className="products">
-      <div className="product__wrapper">
-        <div className="title">What's New</div>
+    <div className="trending">
+      <div className="trending__wrapper">
+        <div className="title">Trending</div>
         <div className="products__slider">
           {products.map((product) => {
             return (
@@ -89,4 +89,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Trending;

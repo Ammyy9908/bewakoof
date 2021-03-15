@@ -23,7 +23,7 @@ function Product({ ptimaryImage, secondaryImage, title, price }) {
       </a>
       <div className="product__Dec">
         <span className="product__title">{title}</span>
-        <strong>{price}</strong>
+        <strong>&#8377;{price}</strong>
       </div>
     </div>
   );
